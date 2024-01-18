@@ -1,33 +1,25 @@
 {
-  "0xcbAe2a4625c5CB99391D8F1a0F5121B3E5A176bb":{
+  "0xcbAe2a4625c5CB99391D8F1a0F5121B3E5A176bb": {
     "chainId": 80001,
     "name": "MGL Coin",
     "symbol": "MGL",
-    "id":"mgl-coin",
+    "id": "mgl-coin",
     "decimals": 18,
     "address": "0xcbAe2a4625c5CB99391D8F1a0F5121B3E5A176bb",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/mgl.svg",
-    "type":"ERC-20",
-    "tags": [
-      "mgl",
-      "pos",
-      "swapable"
-    ]
+    "type": "ERC-20",
+    "tags": ["mgl", "pos", "swapable"]
   },
-  "0x0000000000000000000000000000000000001010":{
+  "0x0000000000000000000000000000000000001010": {
     "chainId": 80001,
     "name": "Matic Token",
     "symbol": "MATIC",
-    "id":"matic-network",
+    "id": "matic-network",
     "decimals": 18,
     "address": "0x0000000000000000000000000000000000001010",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/matic.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable"],
     "extensions": {
       "parentAddress": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
       "project": {
@@ -38,20 +30,16 @@
       }
     }
   },
-  "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa":{
+  "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa": {
     "chainId": 80001,
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "id":"ethereum",
+    "id": "ethereum",
     "decimals": 18,
     "address": "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/eth.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable"],
     "extensions": {
       "parentAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "project": {
@@ -62,21 +50,16 @@
       }
     }
   },
-  "0xe6b8a5cf854791412c1f6efc7caf629f5df1c747":{
+  "0xe6b8a5cf854791412c1f6efc7caf629f5df1c747": {
     "chainId": 80001,
     "name": "USD Coin",
     "symbol": "USDC",
-    "id":"usd-coin",
+    "id": "usd-coin",
     "decimals": 6,
     "address": "0xe6b8a5cf854791412c1f6efc7caf629f5df1c747",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable",
-      "stablecoin"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable", "stablecoin"],
     "extensions": {
       "parentAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "project": {
@@ -87,21 +70,16 @@
       }
     }
   },
-  "0xa02f6adc7926efebbd59fd43a84f4e0c0c91e832":{
+  "0xa02f6adc7926efebbd59fd43a84f4e0c0c91e832": {
     "chainId": 80001,
     "name": "Tether USD",
     "symbol": "USDT",
-    "id":"tether",
+    "id": "tether",
     "decimals": 6,
     "address": "0xa02f6adc7926efebbd59fd43a84f4e0c0c91e832",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable",
-      "stablecoin"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable", "stablecoin"],
     "extensions": {
       "parentAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
       "project": {
@@ -112,21 +90,16 @@
       }
     }
   },
-  "0xd393b1e02da9831ff419e22ea105aae4c47e1253":{
+  "0xd393b1e02da9831ff419e22ea105aae4c47e1253": {
     "chainId": 80001,
     "name": "Dai Stablecoin",
     "symbol": "DAI",
-    "id":"dai",
+    "id": "dai",
     "decimals": 18,
     "address": "0xd393b1e02da9831ff419e22ea105aae4c47e1253",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/dai.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable",
-      "stablecoin"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable", "stablecoin"],
     "extensions": {
       "parentAddress": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "project": {
@@ -137,20 +110,16 @@
       }
     }
   },
-  "0x7ec62b6fC19174255335C8f4346E0C2fcf870a6B":{
+  "0x7ec62b6fC19174255335C8f4346E0C2fcf870a6B": {
     "chainId": 80001,
     "name": "Aave",
     "symbol": "AAVE",
-    "id":"aave",
+    "id": "aave",
     "decimals": 18,
     "address": "0x7ec62b6fC19174255335C8f4346E0C2fcf870a6B",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/aave.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable"],
     "extensions": {
       "parentAddress": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
       "project": {
@@ -161,20 +130,16 @@
       }
     }
   },
-  "0x326c977e6efc84e512bb9c30f76e30c160ed06fb":{
+  "0x326c977e6efc84e512bb9c30f76e30c160ed06fb": {
     "chainId": 80001,
     "name": "ChainLink Token",
     "symbol": "LINK",
-    "id":"chainlink",
+    "id": "chainlink",
     "decimals": 18,
     "address": "0x326c977e6efc84e512bb9c30f76e30c160ed06fb",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/link.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable"],
     "extensions": {
       "parentAddress": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
       "project": {
@@ -185,20 +150,16 @@
       }
     }
   },
-  "0x9c3c9283d3e44854697cd22d3faa240cfb032889":{
+  "0x9c3c9283d3e44854697cd22d3faa240cfb032889": {
     "chainId": 80001,
     "name": "Wrapped BTC",
     "symbol": "WBTC",
-    "id":"wrapped-bitcoin",
+    "id": "wrapped-bitcoin",
     "decimals": 8,
     "address": "0x9c3c9283d3e44854697cd22d3faa240cfb032889",
     "logoURI": "https://wallet-asset.matic.network/img/tokens/wbtc.svg",
-    "type":"ERC-20",
-    "tags": [
-      "erc20",
-      "pos",
-      "swapable"
-    ],
+    "type": "ERC-20",
+    "tags": ["erc20", "pos", "swapable"],
     "extensions": {
       "parentAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "project": {

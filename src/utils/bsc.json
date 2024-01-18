@@ -186,8 +186,6 @@
     "logoURI": "https://bscscan.com/token/images/yfi_32.png"
   },
 
-
-
   {
     "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
     "chainId": 97,
@@ -205,4 +203,3 @@
     "logoURI": "https://bscscan.com/token/images/binance_32.png"
   }
 ]
-
