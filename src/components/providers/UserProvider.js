@@ -12,7 +12,7 @@ const userContextTemplate = {
   sendEmail: (requestData: Object) => {},
   login: (requestData: Object) => {},
   jwtInfo: String,
-  wallet: Walle,
+  wallet: Wallet
 };
 const UserContext = React.createContext(userContextTemplate);
 
