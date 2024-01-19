@@ -1,6 +1,6 @@
-const UserService = require('../services/user.service');
+const UserService = require("../services/user.service");
 
-const dotenv = require('dotenv');
+const dotenv = require("dotenv");
 dotenv.config();
 
 /******************************************************************************
@@ -9,39 +9,46 @@ dotenv.config();
 class UserController {
     verifyEmail = async (req, res, next) => {
         try {
-            const result = await UserService.verifyEmail(req.body.email, (req.body.locale || "En"));
-            res.send(result)
+            const result = await UserService.verifyEmail(
+                req.body.email,
+                req.body.locale || "En",
+            );
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
-    }
+    };
 
     getAllUsers = async (req, res, next) => {
         try {
-            console.log("User called getAllUsers!!!!")
+            console.log("User called getAllUsers!!!!");
             const result = await UserService.getAllUsers();
-            res.send(result)
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
     getUsers = async (req, res, next) => {
         try {
-            const result = await UserService.getUsers(req.params.sortby, req.params.page, req.params.limit);
-            res.send(result)
+            const result = await UserService.getUsers(
+                req.params.sortby,
+                req.params.page,
+                req.params.limit,
+            );
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
-    }
+    };
 
     getUserById = async (req, res, next) => {
         try {
-            console.log("User called getUserById!!!!")
-            const result = await UserService.getUserById(req.params.id)
-            res.send(result)
+            console.log("User called getUserById!!!!");
+            const result = await UserService.getUserById(req.params.id);
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
@@ -56,102 +63,112 @@ class UserController {
 
     getCurrentUser = async (req, res, next) => {
         try {
-            console.log("User called getCurrentUser!!!!")
-            const result = UserService.getCurrentUser(req.currentUser)
-            res.send(result)
+            console.log("User called getCurrentUser!!!!");
+            const result = UserService.getCurrentUser(req.currentUser);
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
     createUser = async (req, res, next) => {
         try {
-            console.log("User called createUser!!!!")
-            const result = await UserService.createUser(req.body)
-            res.send(result)
+            console.log("User called createUser!!!!");
+            const result = await UserService.createUser(req.body);
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
     updateUser = async (req, res, next) => {
         try {
-            console.log("User called updateUser!!!!")
-            const result = await UserService.updateUser(req.body, req.currentUser.id)
-            res.send(result)
+            console.log("User called updateUser!!!!");
+            const result = await UserService.updateUser(
+                req.body,
+                req.currentUser.id,
+            );
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
     updatePassword = async (req, res, next) => {
         try {
-            console.log("User called updatePassword!!!!")
-            const result = await UserService.updatePassword(req.body, req.currentUser.id);
-            res.send(result)
+            console.log("User called updatePassword!!!!");
+            const result = await UserService.updatePassword(
+                req.body,
+                req.currentUser.id,
+            );
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
-    }
+    };
 
     deleteUser = async (req, res, next) => {
         try {
-            console.log("User called deleteUser!!!!")
-            const result = await UserService.deleteUser(req.params.id)
-            res.send(result)
+            console.log("User called deleteUser!!!!");
+            const result = await UserService.deleteUser(req.params.id);
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
     userLogin = async (req, res, next) => {
         try {
-            console.log("User called userLogin!!!!")
-            const result = await UserService.userLogin(req.body)
-            res.send(result)
+            console.log("User called userLogin!!!!");
+            const result = await UserService.userLogin(req.body);
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
     };
 
     userSignup = async (req, res, next) => {
         try {
-            console.log("User called userSignup!!!!")
+            console.log("User called userSignup!!!!");
             let password = req.body.password;
-            const signup = await UserService.signUp(req.body)
+            const signup = await UserService.signUp(req.body);
             if (signup.response) {
-                const result = await UserService.userLogin({email:req.body.email, password: password})
-                res.send(result)
+                const result = await UserService.userLogin({
+                    email: req.body.email,
+                    password: password,
+                });
+                res.send(result);
             } else {
-                res.send(signup)
+                res.send(signup);
             }
         } catch (error) {
-            next(error)
+            next(error);
         }
-    }
+    };
 
     forgotPassword = async (req, res, next) => {
         try {
             const result = await UserService.forgotPassword(req.body);
-            res.send(result)
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
-    }
+    };
 
     resetPassword = async (req, res, next) => {
         try {
-            const result = await UserService.updatePassword(req.body, req.currentUser.id);
-            res.send(result)
+            const result = await UserService.updatePassword(
+                req.body,
+                req.currentUser.id,
+            );
+            res.send(result);
         } catch (error) {
-            next(error)
+            next(error);
         }
-    }
+    };
 }
-
-
 
 /******************************************************************************
  *                               Export
  ******************************************************************************/
-module.exports = new UserController;
+module.exports = new UserController();

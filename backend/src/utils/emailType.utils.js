@@ -1,4 +1,4 @@
 module.exports = {
-    EmailVerify: 'EmailVerify',
-    ResetPassword: 'ResetPassword'
-}
+    EmailVerify: "EmailVerify",
+    ResetPassword: "ResetPassword",
+};

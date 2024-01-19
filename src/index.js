@@ -8,14 +8,14 @@ import PresaleProvider from "./components/providers/PresaleProvider";
 import WalletProvider from "./components/providers/WalletProvider";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <UserProvider>
-      <PresaleProvider>
-        <App />
-      </PresaleProvider>
-    </UserProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <UserProvider>
+            <PresaleProvider>
+                <App />
+            </PresaleProvider>
+        </UserProvider>
+    </React.StrictMode>,
+    document.getElementById("root"),
 );
 
 // If you want to start measuring performance in your app, pass a function

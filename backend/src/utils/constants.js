@@ -7,5 +7,5 @@ module.exports = {
     BNB_ADDRESS,
     COIN_AMOUNT,
     ADMIN_GAS_PRICE,
-    ADMIN_GAS_LIMIT
-}
+    ADMIN_GAS_LIMIT,
+};

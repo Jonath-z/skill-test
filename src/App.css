@@ -1,145 +1,144 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-  overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
-.myButton{
-  
-    
+.myButton {
     border-radius: 5px;
     @apply py-2;
-    transition:color 0.5s,background-color 0.5s;
-  
+    transition:
+        color 0.5s,
+        background-color 0.5s;
 }
-.mySelect{
-  
-    
+.mySelect {
     border-radius: 5px;
     @apply py-2;
-    transition:color 0.5s,background-color 0.5s;
-  
+    transition:
+        color 0.5s,
+        background-color 0.5s;
 }
-.mySelect-item:hover{
-   background-color:#5fe0fb;
-   color:white;
- }
-.myButton:hover{
-   background-color:#5fe0fb;
-   color:white;
- }
- .myButton2{
-  
-    transition:color 0.5s,background-color 0.5s;
-  
+.mySelect-item:hover {
+    background-color: #5fe0fb;
+    color: white;
 }
- .myButton2:hover{
-   background-color:#ff7a04;
-   color:white;
- }
- .myYellow{
-  background-color:#eae987;
- }
- .myBule{
-  background-color: #0060a5;
- }
- .myGreen{
-  background-color: #04a368;
- }
- .mytextGreen{
-  color: #04a368;
- }
- .rightBorder{
-  border-right: 1px solid rgba(50, 50, 50,0.2);
- }
+.myButton:hover {
+    background-color: #5fe0fb;
+    color: white;
+}
+.myButton2 {
+    transition:
+        color 0.5s,
+        background-color 0.5s;
+}
+.myButton2:hover {
+    background-color: #ff7a04;
+    color: white;
+}
+.myYellow {
+    background-color: #eae987;
+}
+.myBule {
+    background-color: #0060a5;
+}
+.myGreen {
+    background-color: #04a368;
+}
+.mytextGreen {
+    color: #04a368;
+}
+.rightBorder {
+    border-right: 1px solid rgba(50, 50, 50, 0.2);
+}
 
- /* width */
+/* width */
 ::-webkit-scrollbar {
-  width: 2px;
-  background-color: black;
+    width: 2px;
+    background-color: black;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow:transparent;
+    box-shadow: transparent;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1dfe62; 
-  border-radius: 10px;
+    background: #1dfe62;
+    border-radius: 10px;
 }
-.pairCard{
-  border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid lightgray;
-  
+.pairCard {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid lightgray;
 }
-.touchCard{
+.touchCard {
 }
-.grayButton:hover{
-  @apply bg-gray-200;
-  @apply text-black;
+.grayButton:hover {
+    @apply bg-gray-200;
+    @apply text-black;
 }
 
 .ant-input {
-  @apply bg-gray-200;
+    @apply bg-gray-200;
 }
 
 .ant-checkbox-checked .ant-checkbox-inner {
-  background-color: black;
-  border-color: black;
-  color: white;
+    background-color: black;
+    border-color: black;
+    color: white;
 }
-.ant-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  @apply text-gray-400;
-  font-size: 18px;
-  opacity: 1; /* Firefox */
+.ant-input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    @apply text-gray-400;
+    font-size: 18px;
+    opacity: 1; /* Firefox */
 }
-.search >.ant-input{ /* Chrome, Firefox, Opera, Safari 10.1+ */
-   @apply bg-white;
+.search > .ant-input {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    @apply bg-white;
 }
-.myAnchor{
-  text-decoration: underline;
+.myAnchor {
+    text-decoration: underline;
 }
-.myAnchor:hover{
-  text-decoration: underline;
+.myAnchor:hover {
+    text-decoration: underline;
 }
-.navBack{
-  background-image: linear-gradient(to right,#005b9c,#016bb7  );
+.navBack {
+    background-image: linear-gradient(to right, #005b9c, #016bb7);
 }
-.navBack2{
-  background-image: linear-gradient(to right,#1a4665,#1a4e74  );
+.navBack2 {
+    background-image: linear-gradient(to right, #1a4665, #1a4e74);
 }
-.progress{
-  height: 19px;
-  border-radius: 50px;
+.progress {
+    height: 19px;
+    border-radius: 50px;
 }
-.back{
-  z-index: -1;
+.back {
+    z-index: -1;
 }
-.modal{
-  z-index: 10;
+.modal {
+    z-index: 10;
 }
 .slideshowDots {
-  text-align: center;
+    text-align: center;
 }
 .slideshowDot {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 15px 7px 0px;
-  background-color: #c4c4c4;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
 }
-.slide{
-  transition: ease 1000ms;
+.slide {
+    transition: ease 1000ms;
 }
 .slideshowDot.active {
-  background-color: #0060a5;
+    background-color: #0060a5;
 }
 .ant-drawer-title {
     color: #492857;
@@ -147,34 +146,35 @@ body{
     font-size: 24px;
 }
 .ant-select:not(.ant-select-customize-input) .ant-select-selector {
-    
-    @apply bg-gray-200
+    @apply bg-gray-200;
 }
-.register-back{
-  background-color: rgba(0, 0, 0, 0.5);
+.register-back {
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.login-back{
-  background-image: url("./assets/image/login_back.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.login-back {
+    background-image: url("./assets/image/login_back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-.shadow{
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+.shadow {
+    box-shadow:
+        0 2px 4px 0 rgba(0, 0, 0, 0.1),
+        0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
-.text-overflow{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .walletPassword .ant-input-affix-wrapper > input.ant-input {
     background-color: white;
     color: #492857;
 }
-.google-play{
-  background-image: url("./assets/image/googleplaybutton.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.google-play {
+    background-image: url("./assets/image/googleplaybutton.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-.step-row-flex{
-  flex-flow: row wrap;
+.step-row-flex {
+    flex-flow: row wrap;
 }

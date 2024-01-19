@@ -4,11 +4,11 @@
     color: white;
     text-align: center;
 }
-  
+
 .site-layout-sub-header-background {
     background: #fff;
 }
-  
+
 .site-layout-background {
     background: #fff;
 }
@@ -22,11 +22,11 @@
 }
 
 .full-height {
-    height: 100%
+    height: 100%;
 }
 
 a.delete {
-    color: rgb(24, 144, 255)
+    color: rgb(24, 144, 255);
 }
 
 .item-display {

@@ -1,4 +1,4 @@
 module.exports = {
-    Super: 'Super',
-    General: 'General'
-}
+    Super: "Super",
+    General: "General",
+};

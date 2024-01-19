@@ -3,7 +3,7 @@
 }
 
 .text-ceter {
-    text-align:  center;
+    text-align: center;
 }
 
 .text-bold {
@@ -21,17 +21,13 @@
 }
 
 .text-grey {
-    color: rgb(134, 126, 137)
+    color: rgb(134, 126, 137);
 }
 
 .walletSelect {
-    background-color: rgb(245,246,250);
+    background-color: rgb(245, 246, 250);
     padding: 20px;
 }
-
-
-
-
 
 .access-button {
     background-color: rgb(76, 46, 86);
@@ -42,7 +38,7 @@
 .create-button {
     background-color: rgb(232, 73, 112);
     border-radius: 6px;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .use-button {
@@ -54,7 +50,7 @@
 .genkey-button {
     background-color: rgb(232, 73, 112);
     border-radius: 6px;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .div-wrap {
@@ -76,7 +72,7 @@
 }
 
 .access-mode {
-    background-color: rgb(245,246,250);
+    background-color: rgb(245, 246, 250);
     padding: 15px;
     font-size: 16px;
     display: flex;
@@ -96,7 +92,7 @@
 
 .image-warp {
     padding-top: 50px;
-    padding-bottom: 30px;;
+    padding-bottom: 30px;
 }
 
 .text-red {
@@ -107,6 +103,5 @@
     background-color: #ffffff;
     padding: 10px;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
-

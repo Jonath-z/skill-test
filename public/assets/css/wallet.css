@@ -1,12 +1,11 @@
-.myColor1{
-	color: #492857;
+.myColor1 {
+    color: #492857;
 }
 
-
- .input-right> .ant-input {
-  text-align: right;
+.input-right > .ant-input {
+    text-align: right;
 }
-.submenu{
+.submenu {
     z-index: 20;
     top: 0px;
     left: 0px;
